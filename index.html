@@ -42,6 +42,9 @@
               bgColor: "#F7F7F7",
             },
             fontFamily: { Manrope: "Manrope" },
+            backgroundImage: {
+              bgPaper: "url('./assets/bg.jpg')",
+            },
           },
         },
       };
@@ -438,7 +441,7 @@
       <!-- our latest portfolio end -->
 
       <!-- read our articles and news start -->
-      <section class="bg-bgColor">
+      <section class="bg-bgColor pb-20">
         <div class="w-11/12 mx-auto lg:pt-28 pt-10">
           <div class="text-center lg:space-y-5 flex flex-col items-center">
             <span class="bg-secondary rounded-full p-2 font-bold">
@@ -614,6 +617,79 @@
         </div>
       </section>
       <!-- read our articles and news end -->
+
+      <!-- discuss next project start -->
+      <section
+        class="bg-bgPaper mt-18 pb-10"
+        style="
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+        "
+      >
+        <div class="w-11/12 mx-auto">
+          <div
+            class="text-center lg:space-y-5 flex flex-col items-center pt-24"
+          >
+            <span class="bg-secondary rounded-full p-2 font-bold">
+              <i class="fa-solid fa-arrow-right"></i> Let’s Connect</span
+            >
+            <h1 class="lg:text-6xl text-4xl font-extrabold text-darkColor_1">
+              Let’s Discuss Next Project
+            </h1>
+            <p class="text-darkColor_2 font-medium lg:w-1/2">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <div class="lg:w-[70%] mx-auto">
+            <div
+              class="flex flex-col lg:flex-row justify-center items-center lg:space-x-5 lg:mt-10 mt-3 space-y-3"
+            >
+              <input
+                type="text"
+                placeholder="First Name*"
+                class="input input-bordered w-full rounded-full lg:space-y-0"
+              />
+              <input
+                type="text"
+                placeholder="Last Name*"
+                class="input input-bordered w-full rounded-full"
+              />
+            </div>
+            <div
+              class="flex flex-col lg:flex-row justify-center items-center lg:space-x-5 lg:mt-5 mt-3 space-y-3"
+            >
+              <input
+                type="text"
+                placeholder="Phone Number*"
+                class="input input-bordered w-full rounded-full"
+              /><input
+                type="text"
+                placeholder="Email Address*"
+                class="input input-bordered w-full rounded-full"
+              />
+            </div>
+            <textarea
+              class="textarea textarea-bordered w-full rounded-3xl mt-5"
+              placeholder="Write your message here"
+              rows="8"
+            ></textarea>
+            <button
+              class="btn rounded-full px-6 bg-primary lg:mt-5 mt-3 hover:bg-secondary text-darkColor_1 font-bold text-lg md:flex w-full"
+            >
+              Send Mail
+
+              <span class="bg-slate-900 px-[6px] text-white rounded-full">
+                <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- discuss next project end -->
     </main>
     <footer></footer>
   </body>
